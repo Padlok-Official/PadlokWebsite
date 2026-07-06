@@ -146,36 +146,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          <div className="hero-visual">
-            <div className="phone-frame">
-              <div className="glow-logo">
-                <Image
-                  src="/app_logo.png"
-                  alt="Padlok app logo"
-                  width={240}
-                  height={240}
-                  priority
-                />
-              </div>
-              <div className="phone-card">
-                <div className="row">
-                  <span>Escrow &middot; Camera &amp; lens</span>
-                  <span className="status-pill">Funded</span>
-                </div>
-                <div className="amount">GHS 850.00</div>
-              </div>
-              <div className="phone-card">
-                <div className="row">
-                  <span>Delivery status</span>
-                  <span className="status-pill">Step 3 of 5</span>
-                </div>
-                <div className="amount" style={{ fontSize: "1rem" }}>
-                  Out for delivery &middot; ETA today
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
