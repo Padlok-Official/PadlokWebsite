@@ -146,6 +146,22 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          <div className="hero-visual">
+            <div className="phone-frame">
+              <span className="notch" aria-hidden="true" />
+              <div className="phone-screen">
+                <Image
+                  src="/phone_image.PNG"
+                  alt="Padlok app screenshot showing an escrow transaction"
+                  fill
+                  sizes="(max-width: 900px) 72vw, 280px"
+                  style={{ objectFit: "cover" }}
+                  priority
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
