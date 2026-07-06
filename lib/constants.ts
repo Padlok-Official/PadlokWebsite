@@ -1,13 +1,10 @@
 export const SITE_URL = "https://padlokit.com";
 export const SITE_NAME = "Padlok";
 
-// TODO: replace with the real TestFlight public link before launch,
-// e.g. https://testflight.apple.com/join/XXXXXXXX
-export const TESTFLIGHT_URL = "https://testflight.apple.com/join/REPLACE_ME";
+export const TESTFLIGHT_URL = "https://testflight.apple.com/join/Qnse4qU7";
 
-// TODO: replace with the real APK download URL before launch
-// (either a file hosted in /public/downloads or an external release URL).
-export const APK_URL = "/downloads/padlok.apk";
+export const APK_URL =
+  "https://expo.dev/artifacts/eas/CmWFm97Ia2OsqNrhG0udKaFJ4m7HTQ51kcILpWqQHOc.apk";
 
 export const CONTACT_EMAIL = "hello@padlokit.com";
 

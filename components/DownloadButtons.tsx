@@ -32,7 +32,12 @@ export default function DownloadButtons({
         >
           Get it on TestFlight
         </a>
-        <a href={APK_URL} className="btn btn-outline btn-lg" download>
+        <a
+          href={APK_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-outline btn-lg"
+        >
           Download APK
         </a>
       </div>
@@ -55,7 +60,12 @@ export default function DownloadButtons({
           <strong>Get it on TestFlight</strong>
         </span>
       </a>
-      <a href={APK_URL} className="download-btn" download>
+      <a
+        href={APK_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="download-btn"
+      >
         <span className="icon" aria-hidden="true">
           <AndroidIcon />
         </span>
