@@ -8,7 +8,7 @@ export default function manifest(): MetadataRoute.Manifest {
       "Peer-to-peer escrow app for buying and selling safely in Ghana.",
     start_url: "/",
     display: "standalone",
-    background_color: "#060C18",
+    background_color: "#ffffff",
     theme_color: "#FF6200",
     icons: [
       {
