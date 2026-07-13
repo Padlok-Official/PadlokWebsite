@@ -54,7 +54,10 @@ export default function Footer() {
             <h4>Legal</h4>
             <ul>
               <li>
-                <Link href="/privacy">Privacy policy</Link>
+                <Link href="/policy-and-privacy">Privacy policy</Link>
+              </li>
+              <li>
+                <Link href="/user-privacy-choices">Your privacy choices</Link>
               </li>
               <li>
                 <Link href="/terms">Terms of service</Link>

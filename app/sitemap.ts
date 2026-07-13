@@ -12,7 +12,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${SITE_URL}/privacy`,
+      url: `${SITE_URL}/policy-and-privacy`,
+      lastModified: now,
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: `${SITE_URL}/user-privacy-choices`,
       lastModified: now,
       changeFrequency: "yearly",
       priority: 0.3,

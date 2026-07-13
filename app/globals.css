@@ -833,6 +833,55 @@ p {
   font-weight: 600;
 }
 
+.legal-page nav.toc {
+  background: var(--color-bg-sunken);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.legal-page nav.toc h2 {
+  margin-top: 0;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-tertiary);
+}
+
+.legal-page nav.toc ol {
+  list-style: decimal;
+  padding-left: 1.25rem;
+  columns: 2;
+  gap: 1.5rem;
+}
+
+.legal-page nav.toc li {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  break-inside: avoid;
+}
+
+.legal-callout {
+  background: var(--color-primary-surface);
+  border: 1px solid rgba(255, 98, 0, 0.25);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1.5rem;
+  margin-block: 1.5rem;
+}
+
+.legal-callout p {
+  margin-bottom: 0;
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+@media (max-width: 560px) {
+  .legal-page nav.toc ol {
+    columns: 1;
+  }
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .hero .container {
