@@ -12,7 +12,7 @@ export default function PolicyAndPrivacyPage() {
   return (
     <article className="legal-page">
       <h1>Privacy Policy</h1>
-      <p className="updated">Last updated: 6 July 2026</p>
+      <p className="updated">Last updated: 7 July 2026</p>
 
       <nav className="toc" aria-label="Table of contents">
         <h2>On this page</h2>
@@ -59,7 +59,10 @@ export default function PolicyAndPrivacyPage() {
         Name, email address, phone number, username, password, and optional
         profile details you choose to add such as a bio, a free-text location
         field, and a profile photo. We do not collect precise GPS location
-        &mdash; the &ldquo;location&rdquo; field is just text you type in.
+        &mdash; the &ldquo;location&rdquo; field is just text you type in, and
+        it is not a structured or verified mailing address. The
+        proof-of-address document collected for Tier 2 verification (see
+        below) is stored as an image, not parsed into an address record.
       </p>
 
       <h3>Identity verification (KYC) information</h3>
@@ -121,9 +124,12 @@ export default function PolicyAndPrivacyPage() {
       <h3>Device &amp; technical information</h3>
       <p>
         Device type and OS version, app version, a push-notification token
-        (used only to deliver notifications to your device), IP address (used
-        for rate-limiting and fraud prevention), and security audit logs of
-        account activity such as logins and PIN attempts.
+        (used only to deliver notifications to your device), and security
+        audit logs of account activity such as logins and PIN attempts. Your
+        IP address is processed transiently for rate-limiting and fraud
+        prevention (e.g. blocking repeated failed login/PIN attempts) &mdash;
+        it is not linked to your profile for marketing or analytics purposes,
+        and is not retained outside of short-lived security logs.
       </p>
 
       <h3>Communications</h3>
