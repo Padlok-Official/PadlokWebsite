@@ -30,7 +30,7 @@ export default function TermsPage() {
       <h2>Fees</h2>
       <p>
         A platform fee applies to escrow transactions. Deposit and
-        withdrawal fees vary by payment method (Paystack or MTN Mobile
+        withdrawal fees vary by payment method (Moolre or MTN Mobile
         Money) and are shown before you confirm any transaction.
       </p>
 

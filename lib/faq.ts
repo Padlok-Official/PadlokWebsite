@@ -27,7 +27,7 @@ export const FAQ_ITEMS = [
   {
     question: "What payment methods does Padlok support?",
     answer:
-      "Padlok supports Paystack (cards and bank transfers) and MTN Mobile Money (MoMo), so both buyers and sellers can fund and withdraw using the payment methods already common in Ghana.",
+      "Padlok supports Moolre (cards and bank transfers) and MTN Mobile Money (MoMo), so both buyers and sellers can fund and withdraw using the payment methods already common in Ghana.",
   },
   {
     question: "How is my account secured?",

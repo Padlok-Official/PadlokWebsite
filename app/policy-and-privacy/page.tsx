@@ -94,7 +94,7 @@ export default function PolicyAndPrivacyPage() {
         provider (e.g. bank or mobile network), account/holder name, and
         either the last four digits of a card or a bank/mobile money account
         number. We never see or store your full card number or PIN &mdash;
-        card payments are handled directly by Paystack&rsquo;s secure
+        card payments are handled directly by Moolre&rsquo;s secure
         infrastructure. We also keep a record of your wallet balance and
         funding/withdrawal history.
       </p>
@@ -147,7 +147,7 @@ export default function PolicyAndPrivacyPage() {
       <ul>
         <li>Operate escrow, wallet, and withdrawal functionality</li>
         <li>Verify your identity and prevent fraud</li>
-        <li>Process deposits and withdrawals through Paystack or MTN Mobile Money</li>
+        <li>Process deposits and withdrawals through Moolre or MTN Mobile Money</li>
         <li>Send account, security, and transaction notifications</li>
         <li>Investigate and resolve disputes between buyers and sellers</li>
         <li>Maintain security logs and detect suspicious activity</li>
@@ -165,7 +165,7 @@ export default function PolicyAndPrivacyPage() {
       </p>
       <ul>
         <li>
-          <strong>Payment processors</strong> (Paystack, MTN Mobile Money)
+          <strong>Payment processors</strong> (Moolre, MTN Mobile Money)
           receive only the data required to complete a specific deposit,
           withdrawal, or payment.
         </li>

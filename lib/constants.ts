@@ -14,4 +14,4 @@ export const SOCIAL = {
 };
 
 export const SITE_DESCRIPTION =
-  "Padlok is a peer-to-peer escrow app for Ghana. Buyers lock funds until delivery is confirmed, sellers get paid the moment the deal is done. Pay with Paystack or MTN MoMo, track delivery live, and stay protected from online buying and selling scams.";
+  "Padlok is a peer-to-peer escrow app for Ghana. Buyers lock funds until delivery is confirmed, sellers get paid the moment the deal is done. Pay with Moolre or MTN MoMo, track delivery live, and stay protected from online buying and selling scams.";

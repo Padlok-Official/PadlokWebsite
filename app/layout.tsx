@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "P2P escrow",
     "online scam protection Ghana",
     "MTN MoMo escrow",
-    "Paystack escrow",
+    "Moolre escrow",
     "escrow service Ghana",
     "safe online payments Ghana",
   ],

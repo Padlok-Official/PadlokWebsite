@@ -23,7 +23,7 @@ const FEATURES = [
   {
     title: "Ghanaian payment rails",
     description:
-      "Fund and withdraw with Paystack (cards, bank transfer) or MTN Mobile Money — the payment methods people in Ghana already use.",
+      "Fund and withdraw with Moolre (cards, bank transfer) or MTN Mobile Money — the payment methods people in Ghana already use.",
   },
   {
     title: "PIN, Face ID & 2FA",
@@ -46,7 +46,7 @@ const STEPS = [
   {
     title: "Agree & fund escrow",
     description:
-      "Buyer and seller agree on an item and price. The buyer funds the deal through Padlok using Paystack or MTN MoMo — the money is locked, not sent to the seller yet.",
+      "Buyer and seller agree on an item and price. The buyer funds the deal through Padlok using Moolre or MTN MoMo — the money is locked, not sent to the seller yet.",
   },
   {
     title: "Track the delivery",
@@ -168,7 +168,7 @@ export default function Home() {
       {/* Trust strip */}
       <div className="trust-strip">
         <div className="container">
-          <span>Paystack</span>
+          <span>Moolre</span>
           <span>MTN Mobile Money</span>
           <span>Built for Ghana</span>
           <span>Secure by design</span>
