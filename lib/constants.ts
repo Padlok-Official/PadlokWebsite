@@ -4,7 +4,7 @@ export const SITE_NAME = "Padlok";
 export const TESTFLIGHT_URL = "https://testflight.apple.com/join/Qnse4qU7";
 
 export const APK_URL =
-  "https://expo.dev/artifacts/eas/CmWFm97Ia2OsqNrhG0udKaFJ4m7HTQ51kcILpWqQHOc.apk";
+  "https://expo.dev/artifacts/eas/6EyyaOcnf9Y5jHmDGHbRgQ5pxH-itzIb22EJ9TdMoVc.apk";
 
 export const CONTACT_EMAIL = "hello@padlokit.com";
 
